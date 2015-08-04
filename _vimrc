@@ -1,4 +1,4 @@
-set nocompatible
+﻿set nocompatible
 "=====================================编码=============================
 set encoding=utf8
 set fileencoding=utf8
@@ -129,7 +129,7 @@ Bundle 'fhuang066/vimim'
 "doc
 Bundle 'asins/vimcdoc'
 " -----------------------------------------------------------------------------
-"au VimEnter * BundleInstall
+au VimEnter * BundleInstall
 
 
 
@@ -137,7 +137,7 @@ Bundle 'asins/vimcdoc'
 set shortmess=atI
 "------------------------------------------------------
 " 当.vimrc被修改时，重载之
-autocmd! bufwritepost vimrc source "d:/Vim/_vimrc"
+autocmd! bufwritepost vimrc source "d:/vim/_vimrc"
 hi Comment guifg=Blue
 "------------------------------------------------------
 "GVim的配色方案,可以完全根据自己的审美观修改哦.^_^.
@@ -333,7 +333,7 @@ set foldmethod=indent
 set foldcolumn=4
 "================================ 储存文件夹设置 ==============================
 "文件自动保存目录
-:cd f:\01@huancunqi\
+:cd i:\01@huancunqi\
 " Add GTD menu.
 "输入法设置
 let g:vimim_shuangpin='flypy'	" 双拼：小鹤
